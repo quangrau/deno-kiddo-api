@@ -1,6 +1,12 @@
 import Activity from "../models/activity.ts";
 import { IActivity } from "../typings/index.ts";
 import { readJson } from "../deps.ts";
+import { PAGE_SIZE } from "../utils/const.ts";
+
+type TOptions = {
+  page?: number;
+  pageSize?: number;
+};
 
 class ActivityService {
   activities: Array<IActivity> = [];
@@ -17,8 +23,8 @@ class ActivityService {
   };
 
   // returns all activities
-  fetchActivities = () => {
-    return this.activities;
+  fetchActivities = ({ page = 1, pageSize = PAGE_SIZE }: TOptions) => {
+    return this.activities.slice((page - 1) * pageSize, page * pageSize);
   };
 
   fetchActivity = (id: string) => {

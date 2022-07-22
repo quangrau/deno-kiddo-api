@@ -1,13 +1,22 @@
 import { RouterContext } from "../deps.ts";
 import activityService from "../services/activity.ts";
+import { PAGE_SIZE } from "../utils/const.ts";
 
 // @desc    Fetch all activities
 // @route   GET /v1/activities
 export const getActivities = ({
+  request,
   response,
 }: RouterContext<"/v1/activities">) => {
+  const page = request.url.searchParams.get("page") || 1;
+  const pageSize = request.url.searchParams.get("pageSize") || PAGE_SIZE;
+  const data = activityService.fetchActivities({
+    page: Number(page),
+    pageSize: Number(pageSize),
+  });
+
   response.body = {
-    data: activityService.fetchActivities(),
+    data,
   };
 };
 

@@ -16,10 +16,21 @@ export interface IStudent {
   name: string;
 }
 
-export interface IAnnouncement {
+export interface IAnnoucement {
   id: string;
+  link: string;
   date: string;
   title: string;
   description: string;
+  files?: Array<IFile>;
+}
+
+export interface IFile {
+  name?: string;
+  url: string;
+}
+
+export interface IDocument {
+  title: string;
   link: string;
 }
