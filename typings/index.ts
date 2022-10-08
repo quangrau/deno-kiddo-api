@@ -16,7 +16,7 @@ export interface IStudent {
   name: string;
 }
 
-export interface IAnnoucement {
+export interface IAnnouncement {
   id: string;
   link: string;
   date: string;
