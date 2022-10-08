@@ -1,51 +1,15 @@
 [
-  {
-    "title": "Jeet's Little Learners Menu",
-    "link": "/assets/download/03268451_jeets_menu_.pdf"
-  },
-  {
-    "title": "Parent Guide - ECDA",
-    "link": "/assets/download/03261d97_ParentGuide_english.pdf"
-  },
-  {
-    "title": "Jeet's Playgroup Schedule 2022",
-    "link": "/assets/download/03263106_PG_2021.pdf"
-  },
-  {
-    "title": "Jeet's Nursery One Schedule 2022",
-    "link": "/assets/download/03263e0c_N1_2021.pdf"
-  },
-  {
-    "title": "Jeet's Nursery Two Schedule 2022",
-    "link": "/assets/download/0326b69a_N2_schedules.pdf"
-  },
-  {
-    "title": "Jeet's Kindergarten One Schedule 2022",
-    "link": "/assets/download/0326f71f_k1_schedules.pdf"
-  },
-  {
-    "title": "Jeet's Kindergarten Two Schedule 2022",
-    "link": "/assets/download/032605ab_k2_schedules.pdf"
-  },
-  {
-    "title": "CLOSURE DATES 2022",
-    "link": "/assets/download/0326b7e7_Closure_dates.pdf"
-  },
-  { "title": "Dear 2022", "link": "/assets/download/03261aa3_hello_.pdf" },
-  {
-    "title": "Afternoon Programs!",
-    "link": "/assets/download/03269f61_Afternoon_Programs_.pdf"
-  },
-  {
-    "title": "Travel declaration form",
-    "link": "/assets/download/0326c790_Travel_Declaration_Form_Staff_and_Children_.pdf"
-  },
-  {
-    "title": "Self Swab Info",
-    "link": "/assets/download/032606ae_Self_Swab_Instrutions_English_.pdf"
-  },
-  {
-    "title": "Latest Protocols - Covid",
-    "link": "/assets/download/03267b8e_Binder1.pdf"
-  }
+{"title": "Jeet's Little Learners Menu", "link": "/assets/download/03268451_jeets_menu_.pdf"},
+{"title": "Parent Guide - ECDA", "link": "/assets/download/03261d97_ParentGuide_english.pdf"},
+{"title": "Jeet's Playgroup Schedule 2022", "link": "/assets/download/03263106_PG_2021.pdf"},
+{"title": "Jeet's Nursery One Schedule 2022", "link": "/assets/download/03263e0c_N1_2021.pdf"},
+{"title": "Jeet's Nursery Two Schedule 2022", "link": "/assets/download/0326b69a_N2_schedules.pdf"},
+{"title": "Jeet's Kindergarten One Schedule 2022", "link": "/assets/download/0326f71f_k1_schedules.pdf"},
+{"title": "Jeet's Kindergarten Two Schedule 2022", "link": "/assets/download/032605ab_k2_schedules.pdf"},
+{"title": "CLOSURE DATES 2022", "link": "/assets/download/0326b7e7_Closure_dates.pdf"},
+{"title": "Dear 2022", "link": "/assets/download/03261aa3_hello_.pdf"},
+{"title": "Afternoon Programs!", "link": "/assets/download/03269f61_Afternoon_Programs_.pdf"},
+{"title": "Travel declaration form", "link": "/assets/download/0326c790_Travel_Declaration_Form_Staff_and_Children_.pdf"},
+{"title": "Self Swab Info", "link": "/assets/download/032606ae_Self_Swab_Instrutions_English_.pdf"},
+{"title": "Latest Protocols - Covid", "link": "/assets/download/03267b8e_Binder1.pdf"}
 ]
